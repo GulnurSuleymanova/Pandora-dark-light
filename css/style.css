@@ -1,0 +1,109 @@
+.card-body .card-title {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.card-body .card-text {
+    font-size: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.card .marvel {
+    padding-left: 50px;
+}
+
+.con {
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+header .left {
+    position: fixed;
+    z-index: 5;
+    width: 4%;
+    height: 100vh;
+}
+
+header #menu {
+    position: fixed;
+    width: 10%;
+    height: 100vh;
+    z-index: -5;
+}
+
+.left .icon {
+    color: black;
+    font-size: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+#menu {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -2;
+    transition: 1s;
+}
+
+.hide {
+    left: -100%;
+}
+
+.show {
+    left: 100px;
+}
+
+.not {
+    padding-top: 220px;
+    font-weight: bolder;
+    color: black;
+}
+
+#menub {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.photo {
+    background-image: url("https://www.shoppingaddict.fr/blogs/media/articles/pandora/stvalentin/saint-valentin-pandora.jpg");
+    width: 100%;
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+    display: flex;
+
+
+}
+
+.light * {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark * {
+    background-color: #000;
+    color: #fff;
+}
